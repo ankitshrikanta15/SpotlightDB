@@ -42,7 +42,7 @@ const PersonDetails = () => {
           <img
             src={
               information.detail.profile_path
-                ? `https://image.tmdb.org/t/p/original/${information.detail.profile_path}`
+                ? `https://image.tmdb.org/t/p/w500/${information.detail.profile_path}`
                 : noimagee
             }
             alt={information.detail.title}

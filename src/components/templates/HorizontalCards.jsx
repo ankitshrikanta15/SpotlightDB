@@ -37,7 +37,7 @@ const HorizontalCards = ({ data }) => {
               <div className="relative overflow-hidden group">
                 <img
                   src={trend.poster_path || trend.profile_path ? 
-                    `https://image.tmdb.org/t/p/original/${trend.poster_path || trend.profile_path || trend.file_path }` : noimagee}
+                    `https://image.tmdb.org/t/p/w500/${trend.poster_path || trend.profile_path || trend.file_path }` : noimagee}
                   alt={trend.title}
                   className="w-full h-[300px] object-cover group-hover:scale-110 transition-all duration-500"
                 />

@@ -21,7 +21,7 @@ const Cards = ({ data, title }) => {
             <img 
               className="w-full aspect-[2/3] object-cover transition-all duration-500" 
               src={card.poster_path || card.profile_path ? 
-                `https://image.tmdb.org/t/p/original/${card.poster_path || card.profile_path}` 
+                `https://image.tmdb.org/t/p/w500/${card.poster_path || card.profile_path}` 
                 : noimagee
               } 
               alt={card.name || card.title} 

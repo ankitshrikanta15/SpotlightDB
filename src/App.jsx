@@ -14,11 +14,9 @@ import Trailer from "./components/templates/Trailer";
 import NotFound from "./components/NotFound";
 import SeasonDetails from "./components/templates/SeasonDetails";
 import ClickSpark from "./components/ClickSpark";
-// import LocomotiveScroll from 'locomotive-scroll';
 
 
 const App = () => {
-  // const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className="h-screen w-screen bg-[#1F1E24] flex overflow-auto" id="scrollableDiv">
           <ClickSpark

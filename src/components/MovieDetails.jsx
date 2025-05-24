@@ -54,7 +54,7 @@ const MovieDetails = () => {
           <img
             src={
               information.detail.poster_path || information.detail.backdrop_path
-                ? `https://image.tmdb.org/t/p/original/${
+                ? `https://image.tmdb.org/t/p/w500/${
                     information.detail.poster_path ||
                     information.detail.backdrop_path
                   }`
@@ -123,7 +123,7 @@ const MovieDetails = () => {
                     title={w.provider_name}
                     key={i}
                     className="w-[6vh] h-[6vh] object-cover rounded-md"
-                    src={`https://image.tmdb.org/t/p/original/${w.logo_path}`}
+                    src={`https://image.tmdb.org/t/p/w300/${w.logo_path}`}
                   />
                 ))}
               </div>
@@ -137,7 +137,7 @@ const MovieDetails = () => {
                   title={w.provider_name}
                   key={i}
                   className="w-[6vh] h-[6vh] object-cover rounded-md"
-                  src={`https://image.tmdb.org/t/p/original/${w.logo_path}`}
+                  src={`https://image.tmdb.org/t/p/w200/${w.logo_path}`}
                 />
               ))}
             </div>
@@ -151,7 +151,7 @@ const MovieDetails = () => {
                   title={w.provider_name}
                   key={i}
                   className="w-[6vh] h-[6vh] object-cover rounded-md"
-                  src={`https://image.tmdb.org/t/p/original/${w.logo_path}`}
+                  src={`https://image.tmdb.org/t/p/w200/${w.logo_path}`}
                 />
               ))}
             </div>

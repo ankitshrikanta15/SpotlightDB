@@ -8,10 +8,10 @@ const Header = ({data}) => {
   
   return (
     <div style={{
-      background: `linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(https://image.tmdb.org/t/p/original/${data.backdrop_path || data.profile_path})`,
+      background: `linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(https://image.tmdb.org/t/p/w1280/${data.backdrop_path || data.profile_path})`,
       backgroundPosition: 'top 50%',
       backgroundSize: 'cover',
-    }} className="w-full h-[60vh] flex flex-col justify-end items-start p-[5%]">
+    }} className="w-full h-[85vh] flex flex-col justify-end items-start p-[5%]">
       <Link to={`/${data.media_type}/details/${data.id}`} >
       <h1 className="text-5xl text-white font-bold">{data.name || data.title}</h1>
       <p className="text-zinc-300 text-sm line-clamp-2 w-[60%] mt-3 mb-2">{data.overview}</p>

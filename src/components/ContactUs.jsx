@@ -62,7 +62,7 @@ const ContactUs = () => {
             hover:border-[#6556CD]/30 transition-all duration-300 group text-center">
             <FaPhoneAlt className="text-4xl text-[#6556CD] mx-auto mb-4" />
             <h3 className="text-white font-semibold mb-2">Phone</h3>
-            <p className="text-zinc-400 group-hover:text-zinc-300">+1 234 567 890</p>
+            <p className="text-zinc-400 group-hover:text-zinc-300 uppercase">+91 xox oxo xoxo</p>
           </div>
 
           <div className="bg-zinc-900/50 p-6 rounded-xl backdrop-blur-sm border border-zinc-800/50
