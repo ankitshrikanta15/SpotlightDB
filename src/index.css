@@ -1,0 +1,51 @@
+@import url("https://gistcdn.githack.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+@import "tailwindcss";
+
+html, body {
+  @apply bg-[#1F1F1F]; /* Or whatever background color you want */
+}
+
+@theme {
+  --default-font-family: 'Gilroy';
+
+  --animate-gradient: gradient 3s ease infinite;
+
+  @keyframes gradient {
+    0%, 100% {
+      background-size: 200% 200%;
+       background-position: left center;
+    }
+    50%: {
+      background-size: 200% 200%;
+      background-position: right center;
+    }
+  }
+}
+
+  /* @keyframes gradient {
+    0%: { background-position: '0% 50%' }
+    50%: { background-position:'100% 50%' }
+   100%: { background-position: '0% 50%' }
+  }
+  --animate-: gradient 8s linear infinite
+} */
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #181819;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6556CD;
+}
+
